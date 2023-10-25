@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* side image  styling */
+.first {
+    height: 1100px;
+    position: relative;
+
+}
+
+.imagediv {
+    margin-left: 613.6px;
+}
+
+.first img {
+    width: 650px;
+    height: 1036px;
+    
+
+}
+
+/* top right section (hero section) */
+.main {
+    position: absolute;
+    top: 0;
+    width: 590px;
+    /* border: 1px solid black; */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* logos style */
+.wrapper img:nth-child(1) {
+    width: 50.92px;
+    height: 69.11px;
+    margin-top: 42.69px;
+    margin-left: 44.39px;
+}
+
+.wrapper img:nth-child(2) {
+    width: 63px;
+    height: 66px;
+    margin-top: 44.69px;
+    margin-left: 14.39px;
+
+}
+
+/* Top right names style */
+.naamecontainer {
+    display: inline-flex;
+    margin-left: 169px;
+    margin-top: 40.69px;
+    height: 18px;
+    gap: 25.69px;
+}
+
+.secondnamecont {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 295px;
+    /* margin-left: 22px; */
+    width: 291px;
+    display: inline-flex;
+    gap: 12.139px;
+}
+
+/* second section style */
+.railway {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 39px;
+}
+
+.subtxt {
+    display: flex;
+    gap: 20.139px;
+}
+
+/* Third section */
+.third {
+    display: inline-flex;
+    margin-top: 90px;
+    margin-left: 31px;
+    gap: 20.27px;
+    height: 30px;
+}
+
+.third img {
+    width: 24.333px;
+    height: 24.333px
+}
+
+
+.outerstyle {
+    /* gap: 20px; */
+    display: flex;
+    padding: 10.139px 15.208px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.139px;
+}
+
+/* Fourth section */
+.fourthsub {
+    margin-top: 80px;
+    margin-left: 31px;
+    flex-shrink: 0;
+}
+
+
+.fourth {
+
+    display: flex;
+    width: 535.472px;
+    height: 116.597px;
+    border-radius: 10.139px;
+    border: 1.014px solid rgba(51, 51, 51, 0.10);
+    background: var(--FFFFFF, #FFF);
+
+}
+
+.trainarvlogo {
+    margin-left: 21px;
+    margin-top: 40px;
+}
+
+.dsttxt {
+    margin-left: 29px;
+    margin-top: 27px;
+}
+
+.dsttxt span {
+    position: relative;
+}
+
+.dsttxt svg {
+    position: absolute;
+}
+
+.dstlogo {
+    margin-left: 64px;
+    margin-top: 27px;
+}
+
+.traindstlogo {
+    margin-left: 38px;
+    margin-top: 40px;
+}
+
+
+/* Fifth section */
+/* date section */
+.Datelogo {
+    margin-top: 17px;
+    padding-left: 21px;
+}
+
+.dates {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+/* Ac section */
+.aclogo {
+    margin-left: 40px;
+    margin-top: 17px;
+}
+
+.actxt {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+/* Takal section */
+.tatkallogo {
+    margin-left: 58px;
+    margin-top: 17px;
+}
+
+.tatkaltxt {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
+/* Button */
+.btn {
+    width: 557.472px;
+    height: 81.111px;
+    margin-top: 20px;
+    margin-left: 31px;
+    border-radius: 10.139px;
+    background: var(--01BB0A, #01BB0A);
+
+}
+
+.btn span{
+    position: relative;
+}
+.btn img{
+    position: absolute;
+    padding-left: 10px;
+}
+
+/* Fontstyles */
+.fonstyle {
+    color: var(--333333, #333);
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 15.208px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.railtxt {
+    color: var(--333333, #333);
+    font-family: Inter;
+    font-size: 47.667px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.railsubtxt {
+    font-family: Inter;
+    font-size: 30.444px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.fontstyle2 {
+    color: var(--333333, #333);
+    font-family: Inter;
+    font-size: 15.208px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.fontstyle3 {
+    color: var(--333333, #333);
+    font-family: Inter;
+    font-size: 25.347px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.login {
+    display: flex;
+    padding: 10.139px 15.208px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+/* Third section font */
+
+.thirdfont {
+    color: var(--FFFFFF, #1f1d1d);
+    font-family: Inter;
+    font-size: 18.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.thirdbackground {
+    border-radius: 5.069px;
+    background: var(--213D77, #213D77);
+    color: var(--FFFFFF, #FFF);
+}
+
+.thirdnxtback {
+    border-radius: 5.069px;
+    border: 1.014px solid rgba(51, 51, 51, 0.50);
+    background: var(--FFFFFF, #FFF);
+}
+
+/* font colors */
+.color {
+    border-radius: 5.069px;
+    background: var(--FB792B, #FB792B);
+}
+
+.color2 {
+    border-radius: 5.069px;
+    border: 1.014px solid rgba(51, 51, 51, 0.20);
+    background: var(--FFFFFF, #FFF);
+}
+
+.colort1 {
+    color: var(--01BB0A, #01BB0A);
+}
+
+.colort2 {
+    color: var(--FB792B, #FB792B);
+}
+
+.colort3 {
+    color: var(--213D77, #213D77);
+}
+
+.color4{
+    color: var(--FFFFFF, #FFF);
+}

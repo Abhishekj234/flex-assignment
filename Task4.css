@@ -1,0 +1,166 @@
+/* Outer container design */
+.container {
+    display: flex;
+    width: 962px;
+    padding: 32px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background: #F4F2FD;
+    margin: 0 auto;
+}
+
+/* Inner items */
+
+.pricing_card_one {
+    display: flex;
+    width: 262px;
+    height: 363px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+.card_header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.plandetails {
+    display: flex;
+    padding-left: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.planbenefit {
+    display: inline-flex;
+    padding: 3px 4px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.ticklogo {
+    width: 25px;
+    height: 25px;
+
+}
+
+.txt {
+    display: inline-flex;
+    padding: 8px 8px 4px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* button  */
+
+
+.buttonouter {
+    display: flex;
+    justify-content: center;
+    padding: 8px 24px;
+    width: 150px;
+}
+
+button {
+    background: #202842;
+    border: 50px;
+}
+
+
+/* Typography */
+.headfont {
+    color: #202842;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 100% */
+}
+
+.subheadfont {
+    color: #202842;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 100% */
+}
+
+.pricefont {
+    color: #202842;
+
+    font-family: Sans Serif Collection;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 100% */
+}
+
+.plantext {
+    color: #202842;
+    font-family: Nunito;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.btntxt {
+
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+/* colors */
+/* second card color */
+.bgcolor {
+    background: #202842;
+}
+
+.txtcolor {
+    color: #FFF;
+}
+
+.secondbtnouter {
+    background: #fff;
+    border-radius: 50px;
+
+}
+
+.secondbtn {
+    background: #fff;
+}
+
+/*  */
+
+
+
+.color {
+    border-radius: 50px;
+    background: #202842;
+}
+
+.btncolor {
+    color: #FFF;
+}
